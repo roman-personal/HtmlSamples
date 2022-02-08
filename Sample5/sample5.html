@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Элементы в HTML5</title>
+    <link rel="stylesheet" href="site.css" />
+</head>
+
+<body>
+    <h1>Формы</h1>
+    <form action="/action_page.php" method="post">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <fieldset>
+            <legend>Choose your favorite monster</legend>
+
+            <input type="radio" id="kraken" name="monster">
+            <label for="kraken">Kraken</label><br />
+
+            <input type="radio" id="sasquatch" name="monster">
+            <label for="sasquatch">Sasquatch</label><br />
+
+            <input type="radio" id="mothman" name="monster">
+            <label for="mothman">Mothman</label>
+        </fieldset><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+</body>
+
+</html>
