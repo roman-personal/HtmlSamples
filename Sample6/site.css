@@ -66,7 +66,7 @@ h5, h6 {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 4px 0x;
     border-radius: 5px;
 }
 
@@ -107,13 +107,17 @@ h5, h6 {
     width: 20%;
 }
 
-.label {
+#label {
     text-align: center;
     text-decoration: none;
     display: inline-block;
     width: 100%;
     padding: 8px;
     margin: 4px 2px;
+}
+
+.label-container {
+    vertical-align: middle;
 }
 
 .row {
@@ -130,4 +134,5 @@ h5, h6 {
 
 #imgHost {
     width: 100%;
+    border-radius: 5px;
 }

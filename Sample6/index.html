@@ -18,8 +18,8 @@
             <div class="column40">
                 <button class="button left" onclick="changeImage(-1)">&#10094;</button>
             </div>
-            <div class="column20" style="vertical-align: middle;">
-                <div id="label" class="label">1 / 6</div>
+            <div class="column20 label-container">
+                <div id="label">Image 1 of 6</div>
             </div>
             <div class="column40">
                 <button class="button right" onclick="changeImage(1)">&#10095;</button>
@@ -32,10 +32,10 @@
 
         function changeImage(n) {
             imageIndex += n;
-            if (imageIndex > 6) { imageIndex = 1 }
-            if (imageIndex < 1) { imageIndex = 6 }
+            if (imageIndex > 6) imageIndex = 1;
+            if (imageIndex < 1) imageIndex = 6;
             document.getElementById("imgHost").src = `images/image00${imageIndex}.jpg`
-            document.getElementById("label").innerHTML = `${imageIndex} / 6`;
+            document.getElementById("label").innerHTML = `Image ${imageIndex} of 6`;
         } 
     </script>
 
