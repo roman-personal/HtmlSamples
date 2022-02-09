@@ -127,3 +127,7 @@ h5, h6 {
     display: table;
     clear: both;
 }
+
+#imgHost {
+    width:100%;
+}
