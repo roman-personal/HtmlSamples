@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Image Gallery 2D</title>
+    <link href="site.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+    <div class="gallery-container">
+        <h1>Image Gallery 2D</h1>
+        <div class="row">
+            <img id="imgHost" src="images/image001.jpg" style="width:100%" />
+        </div>
+        <div class="row">
+            <div class="column40">
+                <button class="button left" onclick="changeImage(-1)">&#10094;</button>
+            </div>
+            <div class="column20" style="vertical-align: middle;">
+                <div id="label" class="label">1 / 6</div>
+            </div>
+            <div class="column40">
+                <button class="button right" onclick="changeImage(1)">&#10095;</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var imageIndex = 1;
+
+        function changeImage(n) {
+            imageIndex += n;
+            if (imageIndex > 6) { imageIndex = 1 }
+            if (imageIndex < 1) { imageIndex = 6 }
+            document.getElementById("imgHost").src = `images/image00${imageIndex}.jpg`
+            document.getElementById("label").innerHTML = `${imageIndex} / 6`;
+        } 
+    </script>
+
+</body>
+
+</html>

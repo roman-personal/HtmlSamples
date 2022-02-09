@@ -1,0 +1,129 @@
+body {
+    font-size: 1em;
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    color: #254af3;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #295abc;
+}
+
+a:hover {
+    color: #3060ff;
+}
+
+a:active {
+    color: #6699ff;
+}
+
+p, ul {
+    margin-bottom: 20px;
+    line-height: 1.6em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #333;
+}
+
+h1 {
+    font-size: 2em;
+    padding-bottom: 0;
+    margin-bottom: 4px;
+}
+
+h2 {
+    padding: 0 0 10px 0;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5, h6 {
+    font-size: 1em;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #2196F3;
+}
+
+.button:hover {
+    background: #0b7dda;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.gallery-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.column40 {
+    float: left;
+    width: 40%;
+}
+
+.column20 {
+    float: left;
+    width: 20%;
+}
+
+.label {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    padding: 8px;
+    margin: 4px 2px;
+}
+
+.row {
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
