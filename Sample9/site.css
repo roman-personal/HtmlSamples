@@ -1,0 +1,89 @@
+body {
+    font-size: 1em;
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    color: #254af3;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #295abc;
+}
+
+a:hover {
+    color: #3060ff;
+}
+
+a:active {
+    color: #6699ff;
+}
+
+p, ul {
+    margin-bottom: 20px;
+    line-height: 1.6em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    color: #333;
+}
+
+h1 {
+    font-size: 2em;
+    padding-bottom: 0;
+    margin-bottom: 4px;
+}
+
+h2 {
+    padding: 0 0 10px 0;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
+h5, h6 {
+    font-size: 1em;
+}
+
+.container {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+}
+
+form {
+    display: table;
+    margin: 0 auto;
+    background-color: #bbfbde;
+    padding: 24px;
+}
+
+form div {
+    display: table-row;
+}
+
+form label, form input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+form label {
+    width: 200px;
+    padding-right: 5%;
+    text-align: right;
+}
+
+form input {
+    width: 300px;
+}
